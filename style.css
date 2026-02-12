@@ -1,0 +1,120 @@
+.attribution {
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  margin: 50px auto;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top;
+  background-color: #e0e8ffc2;
+}
+.container {
+  width: 350px;
+  margin: 100px auto;
+  background-color: white;
+  display: block;
+  height: auto;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.644);
+  border-radius: 10px 10px 0 0;
+  font-family: sans-serif;
+}
+.container-card-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.container-card {
+  padding: 24px;
+}
+.container-card-title {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  border: 5px black;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.container-card-description {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-size: small;
+  color: grey;
+}
+
+.card-plan-img {
+  width: 48px;
+  display: inline-block;
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50px;
+  box-shadow: 0 0 15px rgba(128, 128, 128, 0.255);
+}
+.card-plan {
+  background-color: #f8f9fa;
+  padding: 16px 16px 16px 70px;
+  text-align: left;
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.plan-text {
+  display: inline-block;
+}
+.card-plan-ref {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  font-family: sans-serif;
+}
+.card-plan-price {
+  color: grey;
+}
+
+.payment-button {
+  border-color: none;
+  background-color: #0000ffc4;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  transition: background-color 0.3s;
+  box-shadow: 0px 8px 5px #0f38cc4c;
+  padding: 10px 80px;
+  border-radius: 3px;
+  font-size: 10px;
+}
+.payment-button:hover {
+  background-color: #0f38ccb3;
+  cursor: pointer;
+}
+
+.cancel-button {
+  border-color: none;
+  margin-top: 10px;
+  color: rgb(115, 115, 115);
+  font-weight: bold;
+  border-style: none;
+  padding: 10px 97px;
+  border-radius: 3px;
+  font-size: 10px;
+  background-color: #ffffff;
+  transition: border 0.3s;
+  border: 0.5px solid white;
+}
+.cancel-button:hover {
+  cursor: pointer;
+  border: 0.5px solid rgba(128, 128, 128, 0.434);
+}
